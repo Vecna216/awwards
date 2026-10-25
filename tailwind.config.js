@@ -1,36 +1,31 @@
-
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        zentry: ['zentry', 'sans-serif'],
-        general: ['general', 'sans-serif'],
-        'circular-web': ['circular-web', 'sans-serif'],
-        'robert-medium': ['robert-medium', 'sans-serif'],
-        'robert-regular': ['robert-regular', 'sans-serif'],
+        zentry: ["zentry", "sans-serif"],
+        general: ["general", "sans-serif"],
+        "circular-web": ["circular-web", "sans-serif"],
+        "robert-medium": ["robert-medium", "sans-serif"],
+        "robert-regular": ["robert-regular", "sans-serif"],
       },
       colors: {
         blue: {
-          50: '#DFDFf0',
-          75: '#DFDFf2',
-          100: '#F0F2FA',
-          200: '#010101',
-          300: '#4Fb7DD',
+          50: "#DFDFf0",
+          75: "#DFDFf2",
+          100: "#F0F2FA",
+          200: "#010101",
+          300: "#4Fb7DD",
         },
         violet: {
-          300: '5724FF',
+          300: "#5724FF",
         },
         yellow: {
-          100: '#8E983F',
-          300: '#EDFF66'
+          100: "#8E983F",
+          300: "#EDFF66",
         },
-      }
+      },
     },
   },
   plugins: [],
-}
-
+};
